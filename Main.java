@@ -15,10 +15,10 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("LOL IM GAY");
-//        Button button = new Button("I'm gay!");
+        Button button = new Button("I'm gay!");
 
         StackPane root = new StackPane();
-//        root.getChildren().add(button);
+        root.getChildren().add(button);
         primaryStage.setScene(new Scene(root, 320, 320));
         primaryStage.show();
     }
