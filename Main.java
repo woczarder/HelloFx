@@ -16,6 +16,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         primaryStage.setTitle("LOL IM GAY");
         Button button = new Button("I'm gay!");
+        
 
         StackPane root = new StackPane();
         root.getChildren().add(button);
